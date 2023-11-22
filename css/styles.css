@@ -534,7 +534,6 @@ margin-left: 16px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    display: block;
     margin-left: auto;
     margin-bottom: 24px;
 }
@@ -690,5 +689,10 @@ position: relative;
 .form-input:focus +.icon-human-form{
     fill: #4D5AE5;
 }
+.form-input:focus+.icon-tel-form{
+    fill: #4D5AE5;
+}
 
-
+.form-input:focus+.icon-email-form{
+    fill: #4D5AE5;
+}
